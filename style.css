@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 500px;
+    background-image: url(seahouse.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: #663199;
+    text-align: center;
+    padding: 5px;
+}
+
+li{
+    width: 180px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: darkorchid;
+    transition: 0.5s;
+}
+
+li:hover{
+    transform: rotate(10deg);
+    box-shadow: 0px 0px 7px black;
+}
+
+a{
+    width: 180px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: 'Orelega One', cursive;
+    padding: 10px;
+}
+
+h1{
+   font-family: 'Antonio', sans-serif;
+    font-size: 60px;
+    color: rebeccapurple;
+    margin-top: 180px;
+    text-align: center;
+    text-shadow: 3px 5px #4A235A;
+    
+    
+}
+
+div{
+    text-align: center;
+    width: 70%;
+    margin: 60px auto;
+}
+
+div img{
+    width: 400px;
+    height: 300px;
+    border-radius: 50px 0px;
+    transform: rotate(10deg);
+    transition: 0.8s;
+}
+
+div img:hover{
+    transform: rotate(-10deg);
+}
+
+h2,p{
+    font-family: 'Antonio', sans-serif;
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+h2{
+    margin: 20px;
+    color: #512E5F;
+    font-size: 30px;
+}
+
+h2:hover{
+    transform: skew(-10deg);
+}
+
+h3{
+    color: purple;
+    background-color: #AF7AC5;
+    width: 560px;
+    font-size: 40px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+h3:hover{
+    transform: scale(1.5);
+}
+
+
+footer{
+    width: 100%;
+    height: 450px;
+    background-image: url(sea.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 200px;
+}
+
+footer img{
+   width: 40px;
+    height: 40px;
+    margin: 10px;
+    transition: 0.8s;
+    
+}
+
+footer img:hover{
+   transform: scale(1.2);
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    text-shadow: 3px 2px 2px black;
+    font-size: 30px;
+    font-weight: 700;
+}
